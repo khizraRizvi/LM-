@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_BO_QUERY_GRP_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>293580c4-2992-47db-a82f-263fe83655d3</testCaseGuid>
+   <variable>
+      <defaultValue>'9'</defaultValue>
+      <description></description>
+      <id>bbc9a853-060e-4424-9cbf-57f8e0325e50</id>
+      <masked>false</masked>
+      <name>BO_QUERY_COUNT</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_PCKG_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1bc3a5b-4fa5-4592-9e5f-d49c79d014d1</testCaseGuid>
+   <variable>
+      <defaultValue>'1068'</defaultValue>
+      <description></description>
+      <id>d47955bc-5e6a-41c6-8cf1-5f5a9269fadb</id>
+      <masked>false</masked>
+      <name>BO_PACKAGE_COUNT</name>
+   </variable>
+</TestCaseEntity>

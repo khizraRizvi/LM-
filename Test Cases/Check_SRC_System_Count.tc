@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_SRC_System_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec9187ad-6539-4f0e-be65-52bb495dfae0</testCaseGuid>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>699aa444-0039-4fe2-a732-fc528c16419d</id>
+      <masked>false</masked>
+      <name>SRC_System_Count</name>
+   </variable>
+</TestCaseEntity>

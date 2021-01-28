@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_BG_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c30818e0-1447-4cb1-925d-1b3d87896507</testCaseGuid>
+   <variable>
+      <defaultValue>'50'</defaultValue>
+      <description></description>
+      <id>9180cbf2-a8a8-438a-8726-60748b23c507</id>
+      <masked>false</masked>
+      <name>BO_BG_COUNT</name>
+   </variable>
+</TestCaseEntity>

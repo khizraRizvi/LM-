@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total 192 records</description>
+   <name>Check_ldg_Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed1c3c2c-41e2-4021-99d8-f45801749f68</testCaseGuid>
+   <variable>
+      <defaultValue>'LDG Agency Brokerage Line of Business'</defaultValue>
+      <description></description>
+      <id>d35bc8cc-67b1-4f80-bb4d-f49a914dc459</id>
+      <masked>false</masked>
+      <name>DISPLAY_NAME</name>
+   </variable>
+   <variable>
+      <defaultValue>'CMX_DATA'</defaultValue>
+      <description></description>
+      <id>b1351226-5589-4530-88f0-fbbf20f2c89b</id>
+      <masked>false</masked>
+      <name>DATA_SPACE_NAME</name>
+   </variable>
+   <variable>
+      <defaultValue>'CMX_INDX'</defaultValue>
+      <description></description>
+      <id>f9219418-8854-490e-9342-9dbea9754b4e</id>
+      <masked>false</masked>
+      <name>INDEX_SPACE_NAME</name>
+   </variable>
+   <variable>
+      <defaultValue>'Landing table for storing agency brokerage\'s lines of business'</defaultValue>
+      <description></description>
+      <id>baf0e58f-6a94-4280-a459-e28be3ad105e</id>
+      <masked>false</masked>
+      <name>DESCRIPTION</name>
+   </variable>
+   <variable>
+      <defaultValue>'17'</defaultValue>
+      <description></description>
+      <id>b3c962c9-6cb3-4f63-ba61-018f36631ac3</id>
+      <masked>false</masked>
+      <name>TABLE_TYPE</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>a94b4485-8b76-4db4-83de-9b497ae3f0b7</id>
+      <masked>false</masked>
+      <name>FULL_SET_LANDING_IND</name>
+   </variable>
+   <variable>
+      <defaultValue>'C_LDG_AGENCY_BRKRG_LOB'</defaultValue>
+      <description></description>
+      <id>639ef7df-cd31-4c4c-9b40-2e2430a621a7</id>
+      <masked>false</masked>
+      <name>TABLE_NAME</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_STG_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fba782e-b35b-407b-bbca-b1d5f572e48b</testCaseGuid>
+   <variable>
+      <defaultValue>'216'</defaultValue>
+      <description></description>
+      <id>5059c00d-2341-4942-9761-5207a124c556</id>
+      <masked>false</masked>
+      <name>STG_COUNT</name>
+   </variable>
+</TestCaseEntity>

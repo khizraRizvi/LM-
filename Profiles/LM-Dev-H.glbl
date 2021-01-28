@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>LM-Dev-H</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jdbc:oracle:thin:@34.198.111.25:1539/LM_DEV_H_ORS'</initValue>
+      <name>ora_connect</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'CUSTOMER360_ORS'</initValue>
+      <name>ora_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'uyo8dsgh'</initValue>
+      <name>ora_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'CUSTOMER360_ORS'</initValue>
+      <name>ora_schema</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

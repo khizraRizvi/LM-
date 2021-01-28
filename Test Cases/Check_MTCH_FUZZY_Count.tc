@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_MTCH_FUZZY_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80b32253-d5dc-4aca-9ce6-8fc21b5d8575</testCaseGuid>
+   <variable>
+      <defaultValue>'5'</defaultValue>
+      <description></description>
+      <id>9c2c0dab-9b7d-46c7-99e3-119ea6be4faa</id>
+      <masked>false</masked>
+      <name>MTCH_Fuzzy_Match_Key_Count</name>
+   </variable>
+</TestCaseEntity>

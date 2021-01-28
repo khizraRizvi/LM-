@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_STG_Col_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4f4faa4-578a-46b9-bbad-cfa3f33884e7</testCaseGuid>
+   <variable>
+      <defaultValue>'962'</defaultValue>
+      <description></description>
+      <id>f127a18f-8594-4d85-a7b5-bb57abc52afd</id>
+      <masked>false</masked>
+      <name>STG_COLUMN_COUNT</name>
+   </variable>
+</TestCaseEntity>

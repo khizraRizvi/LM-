@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_MTCH_COL_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b47d11b5-1a1e-4bdc-a2c2-daa23ca50262</testCaseGuid>
+   <variable>
+      <defaultValue>'83'</defaultValue>
+      <description></description>
+      <id>9d2ee91d-b70b-4a6c-a150-18c17b5e1b58</id>
+      <masked>false</masked>
+      <name>MTCH_Column_Count</name>
+   </variable>
+</TestCaseEntity>

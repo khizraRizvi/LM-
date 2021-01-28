@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_SRC_Trust_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04614b8d-f91f-418a-8fae-2ef07c3ae8f7</testCaseGuid>
+   <variable>
+      <defaultValue>'412'</defaultValue>
+      <description></description>
+      <id>f54c6ebc-9f0c-411a-8544-2e4036484e13</id>
+      <masked>false</masked>
+      <name>TRUST_COLUMN_Count</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_Landing_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>266059cb-e0bf-4df5-bf7e-9de7a36bd6a1</testCaseGuid>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>6b35996b-da93-4a15-9d2b-4cc38e8f00c9</id>
+      <masked>false</masked>
+      <name>LDG_COUNT</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result is Hard Coded as a variable in the Test Case</description>
+   <name>Check_BO_QUERY_Count</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d314294c-333f-4d55-a8d4-cf0da72dc219</testCaseGuid>
+   <variable>
+      <defaultValue>'282'</defaultValue>
+      <description></description>
+      <id>18471e39-17f7-4c72-b843-a00509d57e39</id>
+      <masked>false</masked>
+      <name>BO_QUERY_COUNT</name>
+   </variable>
+</TestCaseEntity>
