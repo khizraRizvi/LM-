@@ -246,22 +246,22 @@ public class test {
 		cnnct.close()
 		return row_LDG
 	}
-	
+
 	//Landing Column Setting
 	@Keyword
-	def ldg_ClmnSttng(String ora_cnnct, String ora_usr,  String ora_psswrd, String ora_schema, String TABLE_NAME, String COLUMN_NAME) {
-		def cnnct = Sql.newInstance(ora_cnnct, ora_usr, ora_psswrd,
+	def ldg_ClmnSttng(String ora_connect, String ora_username,  String ora_password, String ora_schema, String TABLE_NAME, String COLUMN_NAME) {
+		def cnnct = Sql.newInstance(ora_connect, ora_username, ora_password,
 				"oracle.jdbc.pool.OracleDataSource")
 		def str_Query = 'SELECT crc.table_name, crc.SYS_IND, crc.display_name, crc.column_name, CRC.NULLABLE,CRC.DATA_TYPE,CRC.DATA_LENGTH,CRC.DATA_PRECISION, CRC.DATA_SCALE,CRC.DATA_DEFAULT,CRC.MULTI_VALUES_IND FROM '+ora_schema+'.C_REPOS_COLUMN crc JOIN '+ora_schema+'.c_repos_table crt ON crc.rowid_table = crt.rowid_table WHERE CRT.TYPE_IND = 17 and CRC.TABLE_NAME = ? and crc.column_name = ?' as String
 		def row_LDG = cnnct.firstRow(str_Query, [TABLE_NAME, COLUMN_NAME])
 		cnnct.close()
 		return row_LDG
 	}
-	
+
 	//Stage Setting
 	@Keyword
-	def stg_Sttng(String ora_cnnct, String ora_usr,  String ora_psswrd, String ora_schema, String TABLE_NAME) {
-		def cnnct = Sql.newInstance(ora_cnnct, ora_usr, ora_psswrd,
+	def stg_Sttng(String ora_connect, String ora_username,  String ora_password, String ora_schema, String TABLE_NAME) {
+		def cnnct = Sql.newInstance(ora_connect, ora_username, ora_password,
 				"oracle.jdbc.pool.OracleDataSource")
 		def str_Query = 'SELECT DISPLAY_NAME,TABLE_NAME,DATA_SPACE_NAME,INDEX_SPACE_NAME,DESCRIPTION,TYPE_IND AS TABLE_TYPE,SRC_ROWID_SYSTEM AS SYSTEM,INITIAL_TAKEON_IND AS PRESERVE_SRC_SYS_KEYS, TAKEON_GAP AS HIGHEST_RESERVE_KEY,TIMELINE_FILL_ON_GAP,DI_STAGING_IND AS INFORMATICA_PLATFORM_STAGING,MRS_SYNCH_IND AS SYNC_WITH_MODEL_REPOS_SRV,RAW_RETENTION_UNITS_CD,RAW_RETENTION_LENGTH,DELTA_TYPE,DELTA_ALLOW_REJECTS_IND FROM '+ora_schema+'.c_repos_table WHERE type_ind = 10 AND table_name = ?' as String
 
@@ -269,17 +269,29 @@ public class test {
 		cnnct.close()
 		return row_STG
 	}
-	
+
 	//Stage Column Settings
 	@Keyword
-	def stg_ClmnSttng(String ora_cnnct, String ora_usr,  String ora_psswrd, String ora_schema, String TABLE_NAME, String DISPLAY_NAME) {
-		def cnnct = Sql.newInstance(ora_cnnct, ora_usr, ora_psswrd,
+	def stg_ClmnSttng(String ora_connect, String ora_username,  String ora_password, String ora_schema, String TABLE_NAME, String DISPLAY_NAME) {
+		def cnnct = Sql.newInstance(ora_connect, ora_username, ora_password,
 				"oracle.jdbc.pool.OracleDataSource")
 		def str_Query = 'SELECT crt.TABLE_NAME,crc.DISPLAY_NAME,crc.LU_ROWID_SYSTEM as LOOKUP_SYSTEM,CRT1.DISPLAY_NAME as LOOKUP_TABLE,crc1.DISPLAY_NAME as LOOKUP_COLUMN,crc.UPDATE_NULL_ALLOW_IND,crc.LU_ALLOW_NULL_FK_IND FROM '+ora_schema+'.C_REPOS_COLUMN crc JOIN '+ora_schema+'.c_repos_table crt ON crc.rowid_table = crt.rowid_table LEFT JOIN '+ora_schema+'.C_REPOS_COLUMN crc1 ON crc.LU_ROWID_COLUMN = crc1.rowid_COLUMN LEFT JOIN '+ora_schema+'.C_REPOS_TABLE crt1 ON crc1.rowid_table = crt1.rowid_table WHERE crc.SYS_IND = 0 AND crt.TYPE_IND = 10 and crt.TABLE_NAME = ? and crc.DISPLAY_NAME = ?' as String
 		def row_STG = cnnct.firstRow(str_Query, [TABLE_NAME, DISPLAY_NAME])
 		cnnct.close()
 		return row_STG
 	}
+	
+	//Source System Settings
+	@Keyword
+	def srcSysSttng(String ora_connect, String ora_username,  String ora_password, String ora_schema, String ROWID_SYSTEM) {
+		def cnnct = Sql.newInstance(ora_connect, ora_username, ora_password,
+				"oracle.jdbc.pool.OracleDataSource")
+		def str_Query = "select SYSTEM_NAME as Name, Description, ROWID_SYSTEM as Primary_Key, SMOS_IND as StateManagementOveridesystem from "+ora_schema+".C_REPOS_SYSTEM where rowid_system = ?" as String
+		def row_STG = cnnct.firstRow(str_Query, [ROWID_SYSTEM])
+		cnnct.close()
+		return row_STG
+	}
+
 }
 
 

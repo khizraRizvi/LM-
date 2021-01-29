@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total 962 records</description>
+   <name>Check_STG_Col_Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9202516d-4b69-4815-b8f4-d9e038fb83ac</testCaseGuid>
+   <variable>
+      <defaultValue>'Hierarchy Code'</defaultValue>
+      <description></description>
+      <id>cfdabaa3-1f0d-4177-8891-2bbbd9e0374d</id>
+      <masked>false</masked>
+      <name>DISPLAY_NAME</name>
+   </variable>
+   <variable>
+      <defaultValue>'C_S_CAR_PRTY_GRP_REL'</defaultValue>
+      <description></description>
+      <id>8e1befcd-72b5-4fa4-a470-e3e62cc38b3b</id>
+      <masked>false</masked>
+      <name>TABLE_NAME</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f83aaa09-d78e-4f77-b5dd-8cf0d8c35db1</id>
+      <masked>false</masked>
+      <name>LOOKUP_SYSTEM</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rbo Hierarchy'</defaultValue>
+      <description></description>
+      <id>9e624e14-a6cb-42ce-a9ee-60070f16f4c8</id>
+      <masked>false</masked>
+      <name>LOOKUP_TABLE</name>
+   </variable>
+   <variable>
+      <defaultValue>'CLM00842|Hierarchy Code'</defaultValue>
+      <description></description>
+      <id>6e595a21-154b-4600-9b84-50888841861d</id>
+      <masked>false</masked>
+      <name>LOOKUP_COLUMN</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>66214af0-91d6-481c-90a8-94bd407e0e51</id>
+      <masked>false</masked>
+      <name>UPDATE_NULL_ALLOW_IND</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>32c84809-d906-4d3d-ad5f-dce077772a9d</id>
+      <masked>false</masked>
+      <name>LU_ALLOW_NULL_FK_IND</name>
+   </variable>
+</TestCaseEntity>

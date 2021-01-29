@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total 10 Records</description>
+   <name>Check_Src_Sys_Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e9f60e9-4c4c-47b1-b806-0b04ad33de76</testCaseGuid>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>6626797d-4c22-4b65-aa94-50159edf4089</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Administration System'</defaultValue>
+      <description></description>
+      <id>b47eb279-3f57-48a3-8830-a4b82fdd594e</id>
+      <masked>false</masked>
+      <name>DESCRIPTION</name>
+   </variable>
+   <variable>
+      <defaultValue>'SYS0          '</defaultValue>
+      <description></description>
+      <id>dccba02e-7c72-41f8-a9c4-92f5be279771</id>
+      <masked>false</masked>
+      <name>Primary_Key</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>450af599-a788-49b5-b3ae-f212c6ef5d5c</id>
+      <masked>false</masked>
+      <name>StateManagementOveridesystem</name>
+   </variable>
+</TestCaseEntity>
