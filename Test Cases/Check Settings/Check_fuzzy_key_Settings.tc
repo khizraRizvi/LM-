@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total 5 records</description>
+   <name>Check_fuzzy_key_Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ae811d5-3751-43b4-b569-407297cfce36</testCaseGuid>
+   <variable>
+      <defaultValue>'Party'</defaultValue>
+      <description></description>
+      <id>ab87d497-fe9d-4248-be51-14cfff0e37ae</id>
+      <masked>false</masked>
+      <name>Source_Table</name>
+   </variable>
+   <variable>
+      <defaultValue>'Organization_Name'</defaultValue>
+      <description></description>
+      <id>08e7def4-97e4-4e9a-836f-0cbedd463d8b</id>
+      <masked>false</masked>
+      <name>match_column_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Standard'</defaultValue>
+      <description></description>
+      <id>d987b9ad-8e02-4c24-90cc-5ae8a56ecfd7</id>
+      <masked>false</masked>
+      <name>match_key_width_str</name>
+   </variable>
+</TestCaseEntity>

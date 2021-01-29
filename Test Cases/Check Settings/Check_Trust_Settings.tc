@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total 412 records</description>
+   <name>Check_Trust_Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1953593d-b7e6-45d9-afe8-436d66c17a4e</testCaseGuid>
+   <variable>
+      <defaultValue>'City'</defaultValue>
+      <description></description>
+      <id>a93118af-70f7-4e94-bfc7-3c7de18e1d29</id>
+      <masked>false</masked>
+      <name>COLUMN_NAME</name>
+   </variable>
+   <variable>
+      <defaultValue>'C_BO_PSTL_ADDR'</defaultValue>
+      <description></description>
+      <id>5b8f91cc-9c90-4ca7-a1de-3b307ffef128</id>
+      <masked>false</masked>
+      <name>TABLE_NAME</name>
+   </variable>
+   <variable>
+      <defaultValue>'90'</defaultValue>
+      <description></description>
+      <id>8398c7cb-5f25-4e0c-9ef7-343db35e84d4</id>
+      <masked>false</masked>
+      <name>maximum</name>
+   </variable>
+   <variable>
+      <defaultValue>'30'</defaultValue>
+      <description></description>
+      <id>bfebd638-d41c-49b1-a451-665fecc53fd3</id>
+      <masked>false</masked>
+      <name>minimum</name>
+   </variable>
+   <variable>
+      <defaultValue>'Month'</defaultValue>
+      <description></description>
+      <id>35a8bfe0-b568-4f37-a500-0e42638c55c9</id>
+      <masked>false</masked>
+      <name>units</name>
+   </variable>
+   <variable>
+      <defaultValue>'12'</defaultValue>
+      <description></description>
+      <id>9015b69e-accc-468e-bbc4-7db3c98fbbf3</id>
+      <masked>false</masked>
+      <name>decay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>0e564c4a-7382-4079-b3f2-67276b5939ce</id>
+      <masked>false</masked>
+      <name>SYSTEM</name>
+   </variable>
+   <variable>
+      <defaultValue>'Slow Initial, Rapid Later'</defaultValue>
+      <description></description>
+      <id>cd93dd9b-2528-4347-af42-caa6c6c3b613</id>
+      <masked>false</masked>
+      <name>graph_type</name>
+   </variable>
+</TestCaseEntity>

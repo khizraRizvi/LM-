@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total 83records</description>
+   <name>Check_MTCH_Col_Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b2cde66-fcd3-42ce-9d2b-533e30a10762</testCaseGuid>
+   <variable>
+      <defaultValue>'Party Group'</defaultValue>
+      <description></description>
+      <id>28a5b996-518c-426e-8644-538c2cb68d4a</id>
+      <masked>false</masked>
+      <name>MTCH_FOR_TABLE</name>
+   </variable>
+   <variable>
+      <defaultValue>'Organization_Name'</defaultValue>
+      <description></description>
+      <id>6f1e6c28-529d-4345-984c-8527e0acd679</id>
+      <masked>false</masked>
+      <name>MC_FIELD_NAME</name>
+   </variable>
+   <variable>
+      <defaultValue>'Party Group Name'</defaultValue>
+      <description></description>
+      <id>d86cd3e5-452e-4084-a5ec-2f574b09261c</id>
+      <masked>false</masked>
+      <name>SELECTED_COLUMNS</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fuzzy Match Key'</defaultValue>
+      <description></description>
+      <id>d2f7583d-d77f-40b6-9972-0881aed5f51d</id>
+      <masked>false</masked>
+      <name>COLUMN_TYPE</name>
+   </variable>
+   <variable>
+      <defaultValue>'Root'</defaultValue>
+      <description></description>
+      <id>bd6f445b-9d2b-4c90-890e-0014ed65cc6d</id>
+      <masked>false</masked>
+      <name>PATH_COMPONENT</name>
+   </variable>
+</TestCaseEntity>

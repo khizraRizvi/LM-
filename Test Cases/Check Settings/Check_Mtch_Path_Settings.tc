@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Total 15 records</description>
+   <name>Check_Mtch_Path_Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>052bfc17-e871-4a45-ab78-97decec65a0d</testCaseGuid>
+   <variable>
+      <defaultValue>'C_BO_PRTY'</defaultValue>
+      <description></description>
+      <id>bc7af5f0-87a7-4031-9681-e97eab77ce97</id>
+      <masked>false</masked>
+      <name>Base_Object_Table</name>
+   </variable>
+   <variable>
+      <defaultValue>'Root for C_BO_PRTY'</defaultValue>
+      <description></description>
+      <id>48774dfc-1f00-490d-9259-d92d11010ede</id>
+      <masked>false</masked>
+      <name>Parent_Component_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'C_MT_PRTY_RLE_PSTL_ADDR'</defaultValue>
+      <description></description>
+      <id>7deb49a7-ad79-4411-a603-1d46a16e2268</id>
+      <masked>false</masked>
+      <name>match_path_component_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'C_BO_PRTY'</defaultValue>
+      <description></description>
+      <id>4e2abc4e-1f2d-4223-905c-347cabd13022</id>
+      <masked>false</masked>
+      <name>Parent_Table_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'C_BR_PRTY_RLE_PSTL_ADDR'</defaultValue>
+      <description></description>
+      <id>b1cd80ad-2e72-48a8-8c16-c94ba56730ab</id>
+      <masked>false</masked>
+      <name>Child_Table_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>9324f15f-cca8-484b-a787-31a6d6bdb56b</id>
+      <masked>false</masked>
+      <name>Check_Missing_Child</name>
+   </variable>
+</TestCaseEntity>
